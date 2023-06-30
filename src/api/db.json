@@ -1,0 +1,38 @@
+{
+  "products": [
+    {
+      "price": 20000,
+      "stock": 5,
+      "id": 3
+    },
+    {
+      "id": 4,
+      "title": "Jaguar",
+      "price": 17800,
+      "stock": 5,
+      "description": "Zapatillas de ultima generacion para el deporte",
+      "category": "urbanas",
+      "img": "https://res.cloudinary.com/dnqfh2chg/image/upload/v1669430220/rtokwmt3j03bblbfhwhb.jpg"
+    },
+    {
+      "title": "Nuevas zapatillas",
+      "price": 4500,
+      "stock": 2,
+      "description": "Estas son las nuevas mejores zapatillas",
+      "category": "deportivas",
+      "img": "https://res.cloudinary.com/dnqfh2chg/image/upload/v1669326932/free-metcon-4-zapatillas-de-entrenamiento-TQMCZg_fvia3m.png",
+      "id": 5
+    },
+    {
+      "title": "Nuevas zapatillas",
+      "price": 4500,
+      "stock": 2,
+      "description": "Estas son las nuevas mejores zapatillas",
+      "category": "deportivas",
+      "img": "https://res.cloudinary.com/dnqfh2chg/image/upload/v1669326932/free-metcon-4-zapatillas-de-entrenamiento-TQMCZg_fvia3m.png",
+      "id": 6
+    }
+  ],
+  "users": [],
+  "orders": []
+}
