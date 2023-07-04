@@ -4,7 +4,7 @@ import ItemList from "./ItemList";
 
 const ItemListContainer = () => {
   const [items, setItems] = useState([]);
-
+console.log(items)
   useEffect(() => {
     const tarea = new Promise((resolve, reject) => {
       resolve(products);

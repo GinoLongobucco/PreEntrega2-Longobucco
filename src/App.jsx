@@ -1,15 +1,14 @@
-import Navbar from "./components/layout/navbar/Navbar";
-import FetchData from "./components/pages/fetchData/FetchData";
+import FetchDos from "./FetchDos";
+import FetchTres from "./FetchTres";
+import FetchUno from "./FetchUno";
 import ItemDetailContainer from "./components/pages/itemDetail/ItemDetailContainer";
 import ItemListContainer from "./components/pages/itemList/ItemListContainer";
 
 function App() {
   return (
     <div>
-      <Navbar />
       <ItemDetailContainer />
-      {/* <ItemListContainer /> */}
-      {/* <FetchData /> */}
+    
     </div>
   );
 }

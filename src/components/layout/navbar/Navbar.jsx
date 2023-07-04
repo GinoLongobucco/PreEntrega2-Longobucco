@@ -1,17 +1,21 @@
 import CartWidget from "../../common/cartWidget/CartWidget";
 import "./Navbar.css";
-const Navbar = () => {
+
+const Navbar = ({ children }) => {
   return (
-    <div className={"containerNavbar"}>
-      <h4>Comision 43290</h4>
+    <div>
+      <div className={"containerNavbar"}>
+        <h4>Comision 43290</h4>
 
-      <ul className="categories">
-        <li>Todas</li>
-        <li>Deportivas</li>
-        <li>Urbanas</li>
-      </ul>
+        <ul className="categories">
+          <li>Todas</li>
+          <li>Deportivas</li>
+          <li>Urbanas</li>
+        </ul>
 
-      <CartWidget />
+        <CartWidget />
+      </div>
+      {children}
     </div>
   );
 };

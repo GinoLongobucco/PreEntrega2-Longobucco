@@ -1,13 +1,13 @@
 import { Button } from "@mui/material";
 
-const Counter = ({ counter, setCounter, agregarAlCarrito, stock }) => {
+const Counter = ({ counter, agregarAlCarrito, stock, sumar, restar }) => {
   return (
     <div>
       <div style={{ display: "flex" }}>
         <Button
           disabled={counter <= 1}
           variant="contained"
-          onClick={() => setCounter(counter - 1)}
+          onClick={restar}
         >
           -
         </Button>
@@ -15,7 +15,7 @@ const Counter = ({ counter, setCounter, agregarAlCarrito, stock }) => {
         <Button
           disabled={counter >= stock}
           variant="contained"
-          onClick={() => setCounter(counter + 1)}
+          onClick={sumar}
         >
           +
         </Button>
